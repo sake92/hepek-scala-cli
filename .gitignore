@@ -1,0 +1,13 @@
+*.class
+*.log
+
+.idea/
+.bloop/
+.bsp/
+.metals/
+.vscode/
+.scala-build/
+
+hepek_output/
+
+
