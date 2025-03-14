@@ -5,7 +5,7 @@ import scalatags.Text.tags2.main
 import ba.sake.hepek.html.statik.StaticPage
 import ba.sake.hepek.plain.component.PlainUtilComponents
 
-// PlainUtilComponents adds markdown .md support
+// PlainUtilComponents adds markdown .md function
 object Index extends StaticPage with PlainUtilComponents {
 
   override def pageSettings =
@@ -18,9 +18,9 @@ object Index extends StaticPage with PlainUtilComponents {
 
   override def pageContent = main(
     """
-       # Hello World! 🌍
-       
-       Welcome to my blog!
+    # Hello World! 🌍
+    
+    Welcome to my blog!
     """.md
   )
 
